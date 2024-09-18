@@ -1,2 +1,2 @@
 # Offensive_language_Detection_Codemixed_Data
-This repository contains jupyter notebook file to analyse the data and classify whether it is offensive or not.  
+This repository contains jupyter notebook file to analyse the data and classify whether it is offensive or not.  I used multi lingual bert for extracting the features from the text and applied deep auto encoders for avoiding the curse of dimensionaity and used as a feature selection then used a lazy classifier. Afterall I used LIME for explainable AI inorder to understand which all words are contributing more to the model prediction.
